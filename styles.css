@@ -14,6 +14,25 @@ body {
   background-color: #393E46;
 }
 
+#roll {
+	position: fixed;
+	top: 50%;
+	left: 0;
+	outline: 0;
+	color: #4ECCA3;
+	font-size: 30px;
+	border: 3px solid #4ECCA3;
+	border-radius: 8px;
+	padding: 12px;
+	transition: color 0.2s ease-in-out,
+				background-color 0.5s ease-in-out;
+}
+
+#roll:hover {
+	color: #fff;
+	background-color: #4ECCA3;
+}
+
 h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
